@@ -223,4 +223,6 @@
   .cat-grid { grid-template-columns: 1fr; }
   .drop-section, .cat-section, .manifesto { padding-left: var(--space-4); padding-right: var(--space-4); }
 }
-@media (max-width: 480px) { .drop-grid { grid-template-columns: 1fr; } .hero-title { font-size: clamp(56px, 19vw, 82px); } }
+@media (max-width: 480px) { 
+  .drop-grid { grid-template-columns: 1fr; } 
+  .hero-title { font-size: clamp(56px, 19vw, 82px); } }
