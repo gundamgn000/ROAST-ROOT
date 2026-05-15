@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ROAST & ROOT 全系列商品 — 單品咖啡、濾掛咖啡、烘焙甜點與咖啡器具。">
+  <title>咖啡選品 — ROAST & ROOT</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/product.css">
+</head>
+<body>
+
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <a href="../index/index.html" class="logo">
+        <img src="../assets/logo/logo.png" alt="ROAST & ROOT">
+        
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="開啟選單" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu">
+        <a href="../index/index.html">首頁</a>
+        <a href="../about/about.html">品牌故事</a>
+        <div class="nav-dropdown">
+          <a href="../product/product.html" class="nav-dropdown-trigger active">咖啡選品</a>
+          <div class="nav-dropdown-menu">
+            <a href="../product/product.html">全部商品</a>
+            <a href="../product/product.html?category=beans">單品咖啡 / Beans</a>
+            <a href="../product/product.html?category=drip">濾掛咖啡 / Drip Bags</a>
+            <a href="../product/product.html?category=bakery">烘焙甜點 / Bakery</a>
+            <a href="../product/product.html?category=tools">咖啡器具 / Tools</a>
+          </div>
+        </div>
+        <a href="#footer">聯絡我們</a>
+      </nav>
+
+      <div class="nav-icons">
+        <a href="#">搜尋</a>
+        <a href="#">會員</a>
+        <a href="#">購物車<span class="cart-count">[02]</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-inner">
+      <a href="../index/index.html" class="drawer-link">首頁</a>
+      <a href="../about/about.html" class="drawer-link">品牌故事</a>
+      <div class="drawer-dropdown">
+        <button class="drawer-dropdown-toggle active" id="drawerDropdownToggle" type="button">
+          咖啡選品 <span class="drawer-arrow">⌄</span>
+        </button>
+        <div class="drawer-submenu active" id="drawerSubmenu">
+          <a href="../product/product.html" class="drawer-sublink">全部商品</a>
+          <a href="../product/product.html?category=beans" class="drawer-sublink">單品咖啡 / Beans</a>
+          <a href="../product/product.html?category=drip" class="drawer-sublink">濾掛咖啡 / Drip Bags</a>
+          <a href="../product/product.html?category=bakery" class="drawer-sublink">烘焙甜點 / Bakery</a>
+          <a href="../product/product.html?category=tools" class="drawer-sublink">咖啡器具 / Tools</a>
+        </div>
+      </div>
+      <a href="#footer" class="drawer-link">聯絡我們</a>
+      <div class="mobile-drawer-icons">
+        <a href="#">搜尋</a>
+        <a href="#">會員</a>
+        <a href="#">購物車 (2)</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="product-list-page">
+
+    <!-- List Hero -->
+    <section class="product-list-hero">
+      <div class="product-list-hero-content">
+        <span class="product-list-kicker">// Weekly Roast / 8 Items</span>
+        <h1>
+          咖啡<br>
+          <span class="accent-text">選品。</span>
+        </h1>
+        <p class="product-list-hero-sub">Fresh Roast & Daily Goods.</p>
+        <p>
+          每週新鮮烘焙，從單品咖啡、濾掛包到適合搭配咖啡的烘焙甜點。<br>
+          選一杯適合今天節奏的味道。
+        </p>
+      </div>
+    </section>
+
+  <!-- 跑馬燈：移到商品頁 Hero 下方 -->
+
+  <div class="top-marquee">
+    <div class="marquee-track">
+      <span>Fresh Roast · 每週三新鮮烘焙</span>
+      <span>滿 NT$ 1,500 免運</span>
+      <span>訂閱取得本週豆單</span>
+      <span>單品咖啡 · 濾掛 · 烘焙甜點</span>
+      <span>Fresh Roast · 每週三新鮮烘焙</span>
+      <span>滿 NT$ 1,500 免運</span>
+      <span>訂閱取得本週豆單</span>
+      <span>單品咖啡 · 濾掛 · 烘焙甜點</span>
+    </div>
+  </div>
+
+    <!-- Toolbar 分類 -->
+    <section class="product-list-toolbar">
+      <div class="product-list-categories">
+        <button class="category-chip active" type="button" data-category="all">全部 · All</button>
+        <button class="category-chip" type="button" data-category="tees">單品 · Beans</button>
+        <button class="category-chip" type="button" data-category="outerwear">濾掛 · Drip</button>
+        <button class="category-chip" type="button" data-category="bottoms">甜點 · Bakery</button>
+        <button class="category-chip" type="button" data-category="accessories">器具 · Tools</button>
+      </div>
+      <div class="product-list-meta"><span>共 8 件商品</span></div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="product-list-section">
+      <div class="product-list-grid">
+
+        <a href="../product-detail/product-detail.html" class="list-product-card" data-category="tees">
+          <div class="list-product-image">
+            <span class="list-product-num">№ 001</span>
+            <span class="list-product-badge">New</span>
+            <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80" alt="衣索比亞 耶加雪菲">
+          </div>
+          <div class="list-product-body">
+            <span class="list-product-tag">Beans · Light Roast</span>
+            <h3>Ethiopia Yirgacheffe</h3>
+            <p class="list-product-name-zh">衣索比亞 耶加雪菲</p>
+            <p>花香、柑橘、蜂蜜尾韻，適合手沖與冰滴。</p>
+            <div class="list-product-sizes">
+              <span class="in-stock">200g</span>
+              <span class="in-stock">半磅</span>
+              <span class="available">濾掛</span>
+            </div>
+            <div class="list-product-footer">
+              <span class="list-product-price">NT$ 480</span>
+              <span class="list-product-link">View</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="../product-detail/product-detail.html" class="list-product-card" data-category="outerwear">
+          <div class="list-product-image">
+            <span class="list-product-num">№ 002</span>
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="日常配方豆">
+          </div>
+          <div class="list-product-body">
+            <span class="list-product-tag">Blend · Medium Roast</span>
+            <h3>House Blend No.03</h3>
+            <p class="list-product-name-zh">日常配方豆</p>
+            <p>堅果、黑糖、可可調性，適合拿鐵與美式。</p>
+            <div class="list-product-sizes">
+              <span class="in-stock">200g</span>
+              <span class="in-stock">半磅</span>
+              <span class="available">一磅</span>
+            </div>
+            <div class="list-product-footer">
+              <span class="list-product-price">NT$ 420</span>
+              <span class="list-product-link">View</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="../product-detail/product-detail.html" class="list-product-card" data-category="bottoms">
+          <div class="list-product-image">
+            <span class="list-product-num">№ 003</span>
+            <span class="list-product-badge">Hot</span>
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80" alt="經典濾掛組">
+          </div>
+          <div class="list-product-body">
+            <span class="list-product-tag">Drip Bags · 12 Packs</span>
+            <h3>Classic Drip Bag Set</h3>
+            <p class="list-product-name-zh">經典濾掛組</p>
+            <p>三款風味一次收齊，適合辦公室、旅行與日常快速沖煮。</p>
+            <div class="list-product-sizes">
+              <span class="in-stock">12入</span>
+              <span class="available">24入</span>
+            </div>
+            <div class="list-product-footer">
+              <span class="list-product-price">NT$ 360</span>
+              <span class="list-product-link">View</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="../product-detail/product-detail.html" class="list-product-card" data-category="accessories">
+          <div class="list-product-image">
+            <span class="list-product-num">№ 004</span>
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="黑糖磅蛋糕">
+          </div>
+          <div class="list-product-body">
+            <span class="list-product-tag">Bakery</span>
+            <h3>Brown Sugar Pound Cake</h3>
+            <p class="list-product-name-zh">黑糖磅蛋糕</p>
+            <p>濕潤厚實的黑糖香氣，適合搭配中焙配方豆。</p>
+            <div class="list-product-sizes">
+              <span class="in-stock">切片</span>
+              <span class="available">整條</span>
+            </div>
+            <div class="list-product-footer">
+              <span class="list-product-price">NT$ 180</span>
+              <span class="list-product-link">View</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="../product-detail/product-detail.html" class="list-product-card" data-category="tees">
+          <div class="list-product-image">
+            <span class="list-product-num">№ 005</span>
+            <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=600&q=80" alt="瓜地馬拉 安提瓜">
+          </div>
+          <div class="list-product-body">
+            <span class="list-product-tag">Beans · Medium Roast</span>
+            <h3>Guatemala Antigua</h3>
+            <p class="list-product-name-zh">瓜地馬拉 安提瓜</p>
+            <p>可可、焦糖與微微果酸，平衡耐喝的中焙豆。</p>
+            <div class="list-product-sizes">
+              <span class="in-stock">200g</span>
+              <span class="in-stock">半磅</span>
+              <span class="available">一磅</span>
+            </div>
+            <div class="list-product-footer">
+              <span class="list-product-price">NT$ 460</span>
+              <span class="list-product-link">View</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="../product-detail/product-detail.html" class="list-product-card" data-category="outerwear">
+          <div class="list-product-image">
+            <span class="list-product-num">№ 006</span>
+            <span class="list-product-badge">New</span>
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" alt="晨間濾掛組">
+          </div>
+          <div class="list-product-body">
+            <span class="list-product-tag">Drip Bags · Morning Set</span>
+            <h3>Morning Drip Set</h3>
+            <p class="list-product-name-zh">晨間濾掛組</p>
+            <p>為早晨設計的濾掛組合，乾淨、穩定、好入口。</p>
+            <div class="list-product-sizes">
+              <span class="sold-out">S</span>
+              <span class="in-stock">M</span>
+              <span class="in-stock">L</span>
+              <span class="in-stock">XL</span>
+            </div>
+            <div class="list-product-footer">
+              <span class="list-product-price">NT$ 320</span>
+              <span class="list-product-link">View</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="../product-detail/product-detail.html" class="list-product-card" data-category="bottoms">
+          <div class="list-product-image">
+            <span class="list-product-num">№ 007</span>
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="肉桂捲">
+          </div>
+          <div class="list-product-body">
+            <span class="list-product-tag">Bakery · Weekend Only</span>
+            <h3>Cinnamon Roll</h3>
+            <p class="list-product-name-zh">肉桂捲</p>
+            <p>週末限定出爐，肉桂香氣與咖啡最合拍。</p>
+            <div class="list-product-sizes">
+              <span class="in-stock">12入</span>
+              <span class="available">24入</span>
+            </div>
+            <div class="list-product-footer">
+              <span class="list-product-price">NT$ 160</span>
+              <span class="list-product-link">View</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="../product-detail/product-detail.html" class="list-product-card" data-category="accessories">
+          <div class="list-product-image">
+            <span class="list-product-num">№ 008</span>
+            <img src="https://images.unsplash.com/photo-1521302080334-4bebac2763a6?auto=format&fit=crop&w=600&q=80" alt="陶瓷濾杯">
+          </div>
+          <div class="list-product-body">
+            <span class="list-product-tag">Bakery · Bag</span>
+            <h3>Ceramic Dripper</h3>
+            <p class="list-product-name-zh">陶瓷濾杯</p>
+            <p>穩定流速與保溫表現，適合日常手沖。</p>
+            <div class="list-product-sizes">
+              <span class="in-stock">01-02杯</span>
+            </div>
+            <div class="list-product-footer">
+              <span class="list-product-price">NT$ 680</span>
+              <span class="list-product-link">View</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="footer-main">
+    <div class="footer-top-container">
+      <div class="footer-brand">
+        <a href="../index/index.html" class="logo">
+          <img src="../assets/logo/logo02.png" alt="ROAST & ROOT">
+          
+        </a>
+        <p>
+          來自台灣的職人咖啡選物。<br>
+          小批量烘焙、每週豆單、日常沖煮。<br>
+          把咖啡留給生活最剛好的時刻。
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>快速連結</h4>
+        <ul>
+            <li><a href="../index/index.html">首頁</a></li>
+            <li><a href="../about/about.html">品牌故事</a></li>
+            <li><a href="../product/product.html">所有選品</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>條款與政策</h4>
+        <ul>
+          <li><a href="#">隱私權政策</a></li>
+          <li><a href="#">服務條款</a></li>
+          <li><a href="#">退換貨政策</a></li>
+          <li><a href="#">免責聲明</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>追蹤我們</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Line</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>客服</h4>
+        <p>hello@roastroot.coffee</p>
+        <p>週一至週五 / 10:00 - 18:00</p>
+        <p>Taiwan · Small Batch Roast</p>
+      </div>
+    </div>
+
+    <div class="footer-big-text">ROAST & ROOT</div>
+
+    <div class="footer-bottom">
+      <p>© 2026 ROAST & ROOT · All Rights Reserved.</p>
+
+    </div>
+  </footer>
+  <script>
+    // ── Header / Drawer ──
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    const drawerDropdownToggle = document.getElementById('drawerDropdownToggle');
+    const drawerSubmenu = document.getElementById('drawerSubmenu');
+
+    if (menuToggle && mobileDrawer) {
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        mobileDrawer.classList.toggle('active');
+        menuToggle.setAttribute('aria-expanded', menuToggle.classList.contains('active'));
+      });
+    }
+
+    if (drawerDropdownToggle && drawerSubmenu) {
+      drawerDropdownToggle.addEventListener('click', () => {
+        drawerDropdownToggle.classList.toggle('active');
+        drawerSubmenu.classList.toggle('active');
+      });
+    }
+
+    // ── 商品過濾 ──
+    const categoryButtons = document.querySelectorAll('.category-chip');
+    const productCards    = document.querySelectorAll('.list-product-card');
+    const productCount    = document.querySelector('.product-list-meta span');
+
+    function filterProducts(category, updateUrl = true) {
+      const cur = category && category.trim() ? category : 'all';
+      let count = 0;
+
+      productCards.forEach(card => {
+        const show = cur === 'all' || card.dataset.category === cur;
+        card.classList.toggle('is-hidden', !show);
+        card.style.removeProperty('display');
+        if (show) count++;
+      });
+
+      if (productCount) productCount.textContent = `共 ${count} 件商品`;
+
+      categoryButtons.forEach(btn =>
+        btn.classList.toggle('active', btn.dataset.category === cur)
+      );
+
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+        url.searchParams.set('category', cur);
+        window.history.replaceState({}, '', url);
+      }
+    }
+
+    function scrollToMarquee() {
+      const marquee = document.querySelector('.top-marquee');
+      if (!marquee) return;
+
+      marquee.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+
+    categoryButtons.forEach(btn =>
+      btn.addEventListener('click', () => {
+        filterProducts(btn.dataset.category);
+        scrollToMarquee();
+
+        btn.scrollIntoView({
+          behavior: 'smooth',
+          inline: 'center',
+          block: 'nearest'
+        });
+      })
+    );
+
+    const init = new URLSearchParams(window.location.search).get('category') || 'all';
+    filterProducts(init, false);
+  </script>
+</body>
+</html>

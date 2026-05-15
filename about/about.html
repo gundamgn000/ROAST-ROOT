@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ROAST & ROOT 品牌故事 — 小批量烘焙、選豆理念與日常咖啡主張。">
+  <title>品牌故事 — ROAST & ROOT</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/about.css">
+</head>
+<body>
+
+ 
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <a href="../index/index.html" class="logo">
+        <img src="../assets/logo/logo.png" alt="ROAST & ROOT">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="開啟選單" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu">
+        <a href="../index/index.html">首頁</a>
+        <a href="../about/about.html" class="active">品牌故事</a>
+        <div class="nav-dropdown">
+          <a href="../product/product.html" class="nav-dropdown-trigger">咖啡選品</a>
+          <div class="nav-dropdown-menu">
+            <a href="../product/product.html">全部商品</a>
+            <a href="../product/product.html?category=beans">單品咖啡 / Beans</a>
+            <a href="../product/product.html?category=drip">濾掛咖啡 / Drip Bags</a>
+            <a href="../product/product.html?category=bakery">烘焙甜點 / Bakery</a>
+            <a href="../product/product.html?category=tools">咖啡器具 / Tools</a>
+          </div>
+        </div>
+        <a href="#footer">聯絡我們</a>
+      </nav>
+
+      <div class="nav-icons">
+        <a href="#">搜尋</a>
+        <a href="#">會員</a>
+        <a href="#">購物車<span class="cart-count">[02]</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-inner">
+      <a href="../index/index.html" class="drawer-link">首頁</a>
+      <a href="../about/about.html" class="drawer-link active">品牌故事</a>
+      <div class="drawer-dropdown">
+        <button class="drawer-dropdown-toggle" id="drawerDropdownToggle" type="button">
+          咖啡選品 <span class="drawer-arrow">⌄</span>
+        </button>
+        <div class="drawer-submenu" id="drawerSubmenu">
+          <a href="../product/product.html" class="drawer-sublink">全部商品</a>
+          <a href="../product/product.html?category=beans" class="drawer-sublink">單品咖啡 / Beans</a>
+          <a href="../product/product.html?category=drip" class="drawer-sublink">濾掛咖啡 / Drip Bags</a>
+          <a href="../product/product.html?category=bakery" class="drawer-sublink">烘焙甜點 / Bakery</a>
+          <a href="../product/product.html?category=tools" class="drawer-sublink">咖啡器具 / Tools</a>
+        </div>
+      </div>
+      <a href="#footer" class="drawer-link">聯絡我們</a>
+      <div class="mobile-drawer-icons">
+        <a href="#">搜尋</a>
+        <a href="#">會員</a>
+        <a href="#">購物車 (2)</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="about-page">
+
+    <!-- About Hero -->
+    <section class="about-hero">
+      <div class="about-hero-container">
+        <div class="about-hero-image">
+          <span class="about-hero-image-tag">№ 001 / Roastery</span>
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=80" alt="咖啡烘焙工作現場">
+        </div>
+        <div class="about-hero-text">
+          <span class="kicker">// Our Story / 我們是誰</span>
+          <h1>
+            慢火<br>
+            <span class="strike">匆忙</span><br>
+            <span class="accent-text">烘焙。</span>
+          </h1>
+          <p class="about-hero-sub">Slow roast, honest daily coffee.</p>
+          <p>
+            ROAST & ROOT 創立於 2024 年的台灣。<br>
+            我們相信咖啡不是被催促出來的商品，而是一段從產地、烘焙到沖煮的日常節奏。<br>
+            每週小批量烘焙，只提供我們願意每天喝的豆子。
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">2024</span>
+              <span class="stat-label">
+                <span class="zh">創立</span>Founded
+              </span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">36h</span>
+              <span class="stat-label">
+                <span class="zh">熟成建議</span>Resting
+              </span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">08</span>
+              <span class="stat-label">
+                <span class="zh">本週豆單</span>Weekly Beans
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Manifesto Wall -->
+    <section class="about-manifesto-wall">
+      <div class="manifesto-wall-container">
+        <div class="manifesto-wall-kicker">
+          <span class="kicker">// Manifesto / 咖啡主張</span>
+        </div>
+        <h2 class="manifesto-wall-title">
+          We don't rush <span class="strike">flavor</span>.<br>
+          We roast with <span class="glow">patience.</span>
+        </h2>
+        <p class="manifesto-wall-sub">
+          我們不追求快速，<br>
+          我們相信<span class="accent-text">慢火與時間</span>。
+        </p>
+        <p class="manifesto-wall-desc">
+          <span class="mono">// Beans. Fire. Water. Time. //</span>
+          沒有過度包裝的話術，也不把咖啡講成難以靠近的學問。<br>
+          我們只在意豆子的乾淨度、烘焙的穩定度，以及你每天願不願意再喝一杯。<br>
+          好咖啡不該只存在於儀式感，也該存在於平凡早晨。
+        </p>
+      </div>
+    </section>
+
+    <!-- Story Gallery 製造現場 -->
+    <section class="about-story-section">
+      <div class="about-story-container">
+        <div class="story-header">
+          <h2>
+            <span class="small">// Behind The Roast</span>
+            烘焙現場。
+          </h2>
+          <p>From Bean To Cup</p>
+        </div>
+        <div class="story-gallery-grid">
+          <div class="story-gallery-item" data-num="01 / Studio">
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80" alt="咖啡豆挑選現場">
+          </div>
+          <div class="story-gallery-item" data-num="02 / Roast">
+            <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=600&q=80" alt="咖啡沖煮">
+          </div>
+          <div class="story-gallery-item" data-num="03 / Bake">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="烘焙甜點">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Values 三大原則 -->
+    <section class="brand-values">
+      <div class="values-section-title">
+        <h2>
+          <span class="small">// Our Principles</span>
+          三個堅持。
+        </h2>
+      </div>
+      <div class="values-grid">
+        <div class="value-item" data-num="01">
+          <span class="value-num">01 / Principle</span>
+          <h3>Fresh Roast.</h3>
+          <span class="value-h3-zh">新鮮烘焙</span>
+          <p>
+            每週小批量烘焙，讓咖啡保留乾淨香氣與適合日常沖煮的穩定狀態。
+          </p>
+        </div>
+        <div class="value-item" data-num="02">
+          <span class="value-num">02 / Principle</span>
+          <h3>Clean Flavor.</h3>
+          <span class="value-h3-zh">乾淨風味</span>
+          <p>
+            我們追求清楚、平衡、能被記住的風味，而不是只為了標籤或產區名稱而複雜。
+          </p>
+        </div>
+        <div class="value-item" data-num="03">
+          <span class="value-num">03 / Principle</span>
+          <h3>Daily Ritual.</h3>
+          <span class="value-h3-zh">日常儀式</span>
+          <p>
+            咖啡不一定要嚴肅，它可以是工作前、午後或夜晚整理自己的小小節奏。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detail Row 製作過程 -->
+    <section class="about-detail">
+      <div class="detail-row">
+        <div class="detail-img">
+          <span class="detail-img-tag">№ 008 / Roast Log</span>
+          <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=900&q=80" alt="烘焙流程">
+        </div>
+        <div class="detail-content">
+          <span class="kicker">// Roast Process</span>
+          <h2>From Bean<br>To Cup.</h2>
+          <p class="detail-sub">從生豆到日常杯中。</p>
+          <p>
+            每一批咖啡都經過選豆、試烘、杯測、養豆與包裝。從產地風味到沖煮建議，我們盡量讓每一杯都穩定而清楚。
+          </p>
+          <p>
+            我們不追求大量出貨，而是保留小批量烘焙的彈性。因為真正舒服的風味，需要時間。
+          </p>
+
+          <div class="detail-process">
+            <div class="process-item">
+              <span class="process-num">Step 01</span>
+              <span class="process-name">選料</span>
+              <span class="process-desc">Green Bean Selection</span>
+            </div>
+            <div class="process-item">
+              <span class="process-num">Step 02</span>
+              <span class="process-name">試烘</span>
+              <span class="process-desc">Sample Roast</span>
+            </div>
+            <div class="process-item">
+              <span class="process-num">Step 03</span>
+              <span class="process-name">杯測</span>
+              <span class="process-desc">Cupping Notes</span>
+            </div>
+            <div class="process-item">
+              <span class="process-num">Step 04</span>
+              <span class="process-name">包裝出貨</span>
+              <span class="process-desc">Pack & Ship</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="footer-main">
+    <div class="footer-top-container">
+      <div class="footer-brand">
+        <a href="../index/index.html" class="logo">
+          <img src="../assets/logo/logo02.png" alt="ROAST & ROOT">
+          <span class="dot"></span>
+        </a>
+        <p>
+          來自台灣的職人咖啡選物。<br>
+          小批量烘焙、每週豆單、日常沖煮。<br>
+          把咖啡留給生活最剛好的時刻。
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>快速連結</h4>
+        <ul>
+            <li><a href="../index/index.html">首頁</a></li>
+            <li><a href="../about/about.html">品牌故事</a></li>
+            <li><a href="../product/product.html">所有選品</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>條款與政策</h4>
+        <ul>
+          <li><a href="#">隱私權政策</a></li>
+          <li><a href="#">服務條款</a></li>
+          <li><a href="#">退換貨政策</a></li>
+          <li><a href="#">免責聲明</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>追蹤我們</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Line</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>客服</h4>
+        <p>hello@roastroot.coffee</p>
+        <p>週一至週五 / 10:00 - 18:00</p>
+        <p>Taiwan · Small Batch Roast</p>
+      </div>
+    </div>
+
+    <div class="footer-big-text">ROAST & ROOT</div>
+
+    <div class="footer-bottom">
+      <p>© 2026 ROAST & ROOT · All Rights Reserved.</p>
+
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    const drawerDropdownToggle = document.getElementById('drawerDropdownToggle');
+    const drawerSubmenu = document.getElementById('drawerSubmenu');
+
+    if (menuToggle && mobileDrawer) {
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        mobileDrawer.classList.toggle('active');
+        menuToggle.setAttribute(
+          'aria-expanded',
+          menuToggle.classList.contains('active')
+        );
+      });
+    }
+
+    if (drawerDropdownToggle && drawerSubmenu) {
+      drawerDropdownToggle.addEventListener('click', () => {
+        drawerDropdownToggle.classList.toggle('active');
+        drawerSubmenu.classList.toggle('active');
+      });
+    }
+  </script>
+</body>
+</html>
